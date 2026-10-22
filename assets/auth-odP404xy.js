@@ -1,0 +1,1 @@
+var e={id:`demo-driver`,name:`Demo driver`,email:null,mode:`demo`};function t(){return{user:e,isDemo:!0,cloudConfigured:!1}}export{t};
