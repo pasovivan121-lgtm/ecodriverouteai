@@ -2,7 +2,7 @@
  * Caches the app shell for offline loading. Third-party requests (map tiles,
  * geocoding, routing) are never cached or intercepted.
  */
-const CACHE = 'ecodrive-shell-v1'
+const CACHE = 'ecodrive-shell-v2'
 const SHELL = ['/', '/index.html', '/manifest.json', '/icon.svg']
 
 self.addEventListener('install', (event) => {
